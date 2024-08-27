@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/stayle.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/./bootstrap.min.css">
+</head>
+<body>
+    <!--sec nav  -->
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Navbar</a>
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-white" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#Card">Card</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#Form">Form</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </nav>
+
+
+
+
+<!-- sec -->
+<div class="test">
+    <div class="test1 d-flex justify-content-center align-items-center pt-5">
+        <div class="test2 text-white">
+            <h1>welcome to your place</h1>
+            <h2>اهلا بك في مكانك</h2>
+           <i class="fa-brands fa-facebook p-2"></i> 
+            <i class="fa-brands fa-youtube p-2"></i>
+            <i class="fa-brands fa-instagram p-2"></i>
+            <i class="fa-brands fa-twitter p-2"></i>
+
+
+        </div>
+    </div>
+ </div>
+
+ 
+
+
+
+<!-- sec -->
+
+<div class="container mt-5" id="Form">
+    <h1 class=" text-center mb-5">Form</h1>
+    <div class="row align-items-start">
+      <div class="col-md-6">
+        <div class="group mb-3">
+            <label for="FristName">FristName</label>
+            <input type="text" id="FristName" class=" form-control">
+        </div>
+        <div class="group">
+            <label for="tel">tel</label>
+            <input type="number" id="tel" class=" form-control">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="group mb-3">
+            <label for="LastName">LastName</label>
+            <input type="text" id="LastName" class=" form-control">
+        </div>
+        <div class="group">
+            <label for="Password">Password</label>
+            <input type="password" id="Password" class=" form-control">
+        </div>
+      </div>
+      <button class="btn btn-info mt-5 mb-5">تسجيل الدخول</button>
+
+<!-- sec -->
+
+
+<div class="container" id="About">
+    <div class="row align-items-start">
+      <div class="col-md-6">
+        <img src="./img/gr1.jpeg" alt="">
+      </div>
+      <div class="col-md-6">
+        <h1 class="mt-5">About</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere rerum adipisci architecto debitis quasi laborum. Officia, necessitatibus reiciendis? Distinctio, in.</p>
+        <div class="progress mt-5 mb-3">
+            <div class="progress-bar bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">مقبول او منخفض</div>
+          </div>
+          <div class="progress mb-3 ">
+            <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">جيد</div>
+          </div>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">جيد جدا</div>
+          </div>
+          <div class="progress mb-3">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">ممتاز</div>
+          </div>
+          <button class=" btn btn-outline-danger">تقييم الخدمه</button>
+          <button class=" btn btn-outline-info">ارسال التقييم</button>
+    </div>
+    
+    </div>
+  
+  </div>
+
+ <!-- sec t -->
+  <h3>قائمة اسعار</h3>
+ <div class="alert alert-primary" role="alert">
+  شاي10 جنية
+</div>
+<div class="alert alert-secondary" role="alert">
+  نسكافية15 جنية
+</div>
+<div class="alert alert-success" role="alert">
+قهوه20 جنية
+</div>
+<div class="alert alert-danger" role="alert">
+ينسون15 جنية
+</div>
+<div class="alert alert-warning" role="alert">
+حلبه15 جنية
+</div>
+<h5>5% ضريبه مضافه</h5>
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  خدمه التوصيل
+</button>
+
+
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  اطلب الان
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+    <!-- sec -->
+    <div class="container mt-5 " id="Card">
+        <h1 class=" text-center mb-5">Card</h1>
+        <div class="row align-items-start">
+          <div class="col-md-4">
+            <div class="card">
+                <img src="./img/gr2.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">رايك يهمنا</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          <div class="col-md-4">
+            <div class="card">
+                <img src="./img/gr.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">اسعار ف المتناول</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+                <img src="./img/gr1.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">افضل مذاق للقهوة</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      
+      </div>
+
+
+    
+
+<!-- foot -->
+
+    </div>
+    <footer class=" text-center text-white bg-dark">
+      <h1>you'r welcome</h1>
+      </footer>
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+.test{
+    background-image: url(../img/kfs.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.test1{
+    background-color: rgba(15, 9, 9, 0.637);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.test2 h2::after{
+    content: "";
+    animation-name: body;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes body {
+    0%{content: "|";}
+    7%{content: "w|";}
+    14%{content: "we|";}
+    21%{content: "wel|";}
+    28%{content: "welc|";}
+    35%{content: "welco|";}
+    42%{content: "welcom|";}
+    49%{content: "welcome|";}
+    56%{content: "welcom|";}
+    63%{content: "welco|";}
+    70%{content: "welc|";}
+    77%{content: "wel|";}
+    84%{content: "we|";}
+    91%{content: "w|";}
+    98%{content: "|";}
+
+}
